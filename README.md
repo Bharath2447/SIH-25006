@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date: 20.11.2025
+## Reference Number: 212224230036
+## Name: Bharath K
 ## Problem Title
 SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
 ## Problem Description
@@ -41,27 +41,19 @@ Ministry of Fisheries, Animal Husbandry & Dairying
 Department of Animal Husbandry & Dairying (DoAH&D)
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+The proposed solution is a digital biosecurity portal that helps pig and poultry farmers monitor, assess, and improve farm hygiene practices. It offers a customizable risk assessment tool, training modules, and compliance tracking to support disease prevention. Real-time alerts and location-based notifications help farmers respond quickly to outbreaks. The platform addresses the problem by providing simple, accessible guidance to small and marginal farmers, even in low-connectivity areas. Authorities benefit from data-driven dashboards for surveillance and policy support. Innovation includes AI-based image analysis to detect hygiene issues and guide farmers visually. Its uniqueness lies in integrating farmers, veterinarians, and officials into a unified, easy-to-use biosecurity ecosystem.
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+The solution uses React Native/Flutter for mobile development, React.js for web, and Node.js/Django with PostgreSQL for the backend and data storage. PostGIS and Mapbox/Leaflet enable GIS-based disease mapping and location-based alerts. AI components built using TensorFlow/PyTorch and OpenCV/YOLO analyze farm images to detect hygiene breaches. A structured workflow guides users through biosecurity assessment, scoring, alerts, training, and compliance tracking. The implementation process includes designing system architecture, building the risk assessment engine, and integrating the AI image-analysis module. Real-time notifications are delivered using Firebase Cloud Messaging, ensuring farmers receive quick outbreak alerts. A prototype includes farm registration, risk scoring, image detection, training modules, and a vet/government dashboard. The final deployment uses cloud hosting (NIC/AWS/Azure) with secure APIs and role-based access control.
+
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+The solution is technically feasible using existing mobile frameworks, cloud technologies, GIS tools, and AI models that can be implemented at scale. Farmers, veterinarians, and government agencies can easily adopt the app due to its simple UI, multilingual support, and mobile-first design. Potential challenges include limited internet access in rural areas, low digital literacy, data accuracy issues, and maintaining reliable disease databases. AI image detection may face risks due to inconsistent lighting, poor-quality images, or diverse farm environments. These challenges can be overcome through offline mode, voice-based guidance, user training, robust data validation, and government API integration Continuous model improvement, field testing, and collaboration with veterinary experts ensure long-term viability and real-world effectiveness.
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+The solution will significantly improve farmers’ ability to manage biosecurity, reducing disease outbreaks and safeguarding pig and poultry livelihoods. It empowers small and marginal farmers with accessible, multilingual guidance, increasing awareness and adoption of scientific farm practices. Socially, it strengthens rural communities by improving animal health, reducing distress losses, and enabling faster access to veterinary support. Economically, healthier livestock leads to higher productivity, reduced mortality, and improved income stability for farmers. Environmentally, better waste management, hygiene practices, and controlled movement reduce contamination and improve farm sustainability. Policymakers benefit from real-time data and analytics, enabling stronger disease surveillance, faster interventions, and better decision-making.
 
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+1. https://chatgpt.com/
+2. https://www.mdpi.com/2077-0472/15/9/937
+3. https://www.sciencedirect.com/science/article/pii/S0167587724000059
