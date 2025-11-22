@@ -45,6 +45,7 @@ The proposed solution is a digital biosecurity portal that helps pig and poultry
 
 ## Technical Approach
 The solution uses React Native/Flutter for mobile development, React.js for web, and Node.js/Django with PostgreSQL for the backend and data storage. PostGIS and Mapbox/Leaflet enable GIS-based disease mapping and location-based alerts. AI components built using TensorFlow/PyTorch and OpenCV/YOLO analyze farm images to detect hygiene breaches. A structured workflow guides users through biosecurity assessment, scoring, alerts, training, and compliance tracking. The implementation process includes designing system architecture, building the risk assessment engine, and integrating the AI image-analysis module. Real-time notifications are delivered using Firebase Cloud Messaging, ensuring farmers receive quick outbreak alerts. A prototype includes farm registration, risk scoring, image detection, training modules, and a vet/government dashboard. The final deployment uses cloud hosting (NIC/AWS/Azure) with secure APIs and role-based access control.
+<img width="1024" height="1536" alt="Technical_approach" src="https://github.com/user-attachments/assets/7e861596-875a-4268-816e-15278eada1cf" />
 
 
 ## Feasibility and Viability
